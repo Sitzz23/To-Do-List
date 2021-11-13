@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+<div class="heading">
+    <div class="tick">
+        <div class="pad"></div>
+        <img src="check-solid.svg" style="width:40px;position:absolute;left:21%;top:30%;">
+    </div>
+    To-Do List
+</div>
+<div class="by">
+        <span class="search">
+            <input id="input-task" type="text" name="find" placeholder="Enter your new task.....">
+        </span>
+    <span>
+            <button class="add" name="find" id="add-task-button">
+                Add Task
+            </button>
+        </span>
+</div>
+
+<div class="tasks">
+    <ul id="task-list">
+    </ul>
+</div>
+
+<script src="to-do.js"></script>
+</body>
+</html>
